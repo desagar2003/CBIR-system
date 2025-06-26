@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Top Matches</h2>
+    {% for img in results %}
+        <img src="/static/dataset/{{ img }}" width="150">
+    {% endfor %}
+</body>
+</html>
